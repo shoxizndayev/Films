@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Films</title>
+</head>
+<body>
+    <section class="film">
+        <div class="container">
+            
+            <form class="film__form">
+                <input class="film__input"
+                type="text"
+                name="title"
+                placeholder="Title"
+                autocomplete="off"
+                required
+                >
+
+                <input class="film__input"
+                type="text"
+                name="poster"
+                placeholder="URL"
+                autocomplete="off"
+                required
+                >
+
+                <input class="film__input"
+                type="text"
+                name="overview"
+                placeholder="Info"
+                autocomplete="off"
+                required
+                >
+                
+                <input class="film__input"
+                type="date"
+                name="release_date"
+                autocomplete="off"
+                required
+                >
+
+                <input class="film__input"
+                type="text"
+                name="genres"
+                placeholder="Genres"
+                autocomplete="off"
+                required
+                >
+
+                <button class="film__button" type="submit">
+                    Add new film
+                </button>
+            </form>
+
+
+            <ul class="film__list"></ul>
+        </div>
+    </section>
+    
+    <script src="./js/films.js"></script>
+    <script src="./js/main.js"> </script>
+</body>
+</html>

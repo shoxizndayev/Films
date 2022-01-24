@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(92, 90, 90);
+}
+
+.film__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.film__item {
+    border: 1px solid steelblue;
+    border-radius: 8px;
+    margin: 8px;
+    width: 400px;
+    padding: 10px;
+    background-color: wheat;
+}
+
+.films__info {
+    border: 2px solid steelblue;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: thistle;
+}
+
+.film__form {
+    margin-top: 45px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+.film__input {
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.film__button {
+    padding: 8px;
+    background-color: bisque;
+    border-radius: 8px;
+}
